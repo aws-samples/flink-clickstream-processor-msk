@@ -1,17 +1,12 @@
-## My Project
+## Apache Flink Application using Glue schema registry
 
-TODO: Fill this README out!
+This Apache Flink consumer application to be deployed in Amazon KDA and uses Glue Schema registry.
 
-Be sure to:
+Read more in AWS Channel:
 
-* Change the title in this README
-* Edit your repository description on GitHub
+[Ingesting, transforming and analyzing real time streaming data using Amazon MSK, Amazon Kinesis Data Analytics, and Amazon Elasticsearch](https://aws.amazon.com/blogs/big-data/part1-build-and-optimize-a-real-time-stream-processing-pipeline-with-amazon-kinesis-data-analytics-for-apache-flink/)
 
-## Security
 
-See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more information.
+## License Summary
 
-## License
-
-This library is licensed under the MIT-0 License. See the LICENSE file.
-
+This sample code is made available under a modified MIT license. See the LICENSE file.

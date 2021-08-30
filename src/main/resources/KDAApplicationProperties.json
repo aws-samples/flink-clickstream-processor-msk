@@ -1,0 +1,18 @@
+[
+  {
+    "PropertyGroupId": "FlinkApplicationProperties",
+    "PropertyMap": {
+      "ElasticsearchEndpoint": "https://vpc-mskflin-elasti-zpsim42c8yyj-gekf332jqknjmga4wlsrjhomgm.us-east-1.es.amazonaws.com",
+      "Region": "us-east-1",
+      "BootstrapServers": "b-1.mskcluster-mskflink2.ewf1to.c9.kafka.us-east-1.amazonaws.com:9096,b-3.mskcluster-mskflink2.ewf1to.c9.kafka.us-east-1.amazonaws.com:9096,b-2.mskcluster-mskflink2.ewf1to.c9.kafka.us-east-1.amazonaws.com:9096",
+      "GroupId": "flink-clickstream-processor",
+      "ZookeeperConnect": "http://127.0.0.1:2181",
+      "Topic": "ExampleTopic",
+      "DepartmentsAgg_Topic": "Departments_Agg",
+      "clickEventsUserIdAggResult_Topic": "ClickEvents_UserId_Agg_Result",
+      "userSessionsAggregatesWithOrderCheckout_Topic": "User_Sessions_Aggregates_With_Order_Checkout",
+      "MSKSASLSCRAMUserName": "jen",
+      "SecretsRegion": "us-east-1"
+    }
+  }
+]
