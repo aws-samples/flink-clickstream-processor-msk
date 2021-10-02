@@ -7,13 +7,9 @@ Steps to create the ClickstreamProcessor-1.0-SNAPSHOT.jar file:
 ```
 git clone https://github.com/aws-samples/flink-clickstream-processor-msk.git
 
-mvn clean compile assembly:single
+mvn clean install
 
 ```
-Read more in AWS Channel:
-
-[Ingesting, transforming and analyzing real time streaming data using Amazon MSK, Amazon Kinesis Data Analytics, and Amazon Elasticsearch](https://aws.amazon.com/blogs/big-data/part1-build-and-optimize-a-real-time-stream-processing-pipeline-with-amazon-kinesis-data-analytics-for-apache-flink/)
-
 
 ## License Summary
 
